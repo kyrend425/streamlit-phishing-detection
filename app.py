@@ -1,9 +1,10 @@
 import sys
 import streamlit as st
 
+# Menampilkan versi Python yang sedang berjalan
 st.write("Python version:", sys.version)
 
-import streamlit as st
+# Rest of your app code
 import pandas as pd
 import joblib
 import numpy as np
